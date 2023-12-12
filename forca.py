@@ -3,10 +3,10 @@ def jogar():
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
 
-    palavra_secreta = "alface"
+    palavra_secreta = "paralelepipedo"
     palavra_secreta = palavra_secreta.lower()
     
-    letras_acertadas = ["_", "_" , "_" , "_" , "_" , "_"]
+    letras_acertadas = ["_" for letra in palavra_secreta]
 
     print(letras_acertadas)
 
